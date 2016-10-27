@@ -1,0 +1,193 @@
+/*---------- global ---------*/
+*{ padding:0; margin:0; }
+body,textarea,input,select,button{ font:12px/1.5 "Microsoft Yahei",verdana,arial,sans-serif; color:#A2A2A2;}
+a{ color:#777;  text-decoration:none; outline:none; star:expression(this.onFocus=this.blur());}
+a:hover{ color:#ba2636; text-decoration:underline;}
+img{ border:none;}
+ul{ list-style:none;}
+input,select,button{ vertical-align:middle;}
+table{ border-collapse: collapse; empty-cells: show; table-layout:auto !important;}
+	.top_icons {clear:both;}
+	.top_icons .mleft {float:left;}
+	.top_icons .mright {float:right;}
+	.top_icons li img {width:115px;height:60px;margin:1px;border:1px dotted #ccc;}
+	.top_icons ul li {border:1px solid #ccc;height:64px;width: 116px;float:left;margin:1px 2px 1px 0px;padding:0px;}
+	.top_icons ul {margin-left:0px;margin-right:0px;padding-left:0px;}
+.left{ float:left;}
+.right{ float:right;}
+.nbg{ background:none !important;}
+.undis{ display:none;}
+.mb5{ margin-bottom:5px;}
+.pd5{ padding-bottom:5px!important;}
+.bax{ border:1px solid #DEDEDE;}
+.bbx{ border-bottom:1px solid #DEDEDE;}
+.w980{ width:960px; background:#FFFFFF; margin:auto auto; padding:0 10px; overflow:hidden;}
+.mcps img{margin-bottom:3px;display:block;}
+.dleft,.dright{ position:absolute; position:fixed !important; z-index:999; top:10px;}
+.dleft img,.dright img{ margin-bottom:5px;}
+.bl img,.br img,.banfu img{ width:478px; height:40px;}
+.bbl img,.bbr img,.banfu img{ width:478px; height:200px;}
+.bl,.bbl{ float:left;}
+.br,.bbr{ float:right;}
+.topWord {padding-left:15px;vertical-align:middle}
+.topWord a {font-weight:bold;color:#000;}
+.aj,.aj a,.aj a:visited{ color:#FF0000;}
+.bj,.bj a,.bj a:visited{ color:#CC0099;}
+.cj,.cj a,.cj a:visited{ color:#0066FF;}
+.dj,.dj a,.dj a:visited{ color:#FF3399;}
+.ej,.ej a,.ej a:visited{ color:#990033;}
+.fj,.fj a,.fj a:visited{ color:#FF66FF;}
+.gj,.gj a,.gj a:visited{ color:#660099;}
+.hj,.hj a,.hj a:visited{ color:#009966;}
+.ij,.ij a,.ij a:visited{ color:#CC99090;}
+.jj,.jj a,.jj a:visited{ color:#663300;}
+.kj,.kj a,.kj a:visited{ color:#FF6600;}
+.lj,.lj a,.lj a:visited{ color:#663333;}
+.mj,.mj a,.mj a:visited{ color:#33300;}
+.nj,.nj a,.nj a:visited{ color:#FF6666;}
+.oj,.oj a,.oj a:visited{ color:#00CC00;}
+.pj,.pj a,.pj a:visited{ color:#669900;}
+
+.topbar .home,.topbar .addfav,.menu,.menu .mm li,.boxt strong,.top10 li span,.ccbox .cpl,.arclist li,.ccbox .tj,.menu .new li,.albox .alist li,.lrbox ul li,.cpt .huodong li,.xycps .pingjia .good,.xycps .pingjia .bad,.viewbox .zl span,.relat .rearc li,.viewbox .info .report{ background:url(iocs.gif) no-repeat;}
+
+/*---------- header ---------*/
+.header{ padding:0 10px 2px;}
+.topbar{ line-height:22px; height:22px; overflow:hidden; margin-bottom:2px;}
+.topbar .left strong{ font-weight:normal;}
+.topbar .right strong{ color:#666666; margin-right:20px;}
+.topbar .home{ margin-right:10px; padding-left:18px; background-position:0 1px;}
+.topbar .addfav{ padding-left:18px; background-position:0 -20px;}
+.logo{ float:left; margin-left:5px; clear:both;}
+#cps1{ float:right;}
+.menu{ height:30px; width:960px; background-position:0 -176px; clear:both;background-color:#cc0000}
+.menu2{ height:35px; width:960px; background-image:none; clear:both;background-color:green;margin-bottom:1px;padding-top:1px;}
+.menu .mm{ height:30px; line-height:30px;}
+.menu .mm img{ margin-bottom: 0px;display:inline;}
+.menu .mm li{ float:left; background-position:0 -136px; width:160px; text-align:center;}
+.menu .mm li a,.menu .mm li span{ color:#ffffff; font-size:14px; font-weight:bold; font-family:Verdana,Arial,Tahoma;}
+.menu .mm li a:hover{ color:#ffff00; text-decoration:none;}
+.menu2 .mm li a {color:yellow;}
+.menu2 .mm li span {color:red;}
+.menu .mm li a:hover{ color:#ffffff; text-decoration:none;}
+.menu .new{ clear:both; padding:0 10px 0 15px;; height:36px; line-height:36px; overflow:hidden;}
+.menu .new strong{ color:#279ADC; float:left;}
+.menu .new ul{ height:24px; line-height:24px; width:840px; margin-top:6px; overflow:hidden;}
+.menu .new li{ float:left; width:260px;  height:24px; overflow:hidden; margin-left:10px; background-position:-823px -62px; padding-left:10px; }
+
+/*---------- index ---------*/
+.boxt{ height:33px; line-height:35px; *line-height:37px; overflow:hidden; background:url(title_bg.gif) repeat-x; border-bottom:1px solid #DCDADA;}
+.boxt,.boxt strong a,.boxt strong a:visited,.boxt h2 a,.boxt h2 a:visited{ color:#B70000; font-weight:bold;}
+.boxt strong{ float:left; font-size:12px; background-position:-160px 10px; padding-left:28px;}
+.boxt .more{ float:right;}
+.boxt .more,.boxt .more a,.boxt .more a:visited{ margin-right:10px; color:#888888; font-weight:normal;}
+
+.topbox{ width:198px; overflow:hidden; float:left; margin:0 5px 5px 0;}
+.top10{ padding:8px 8px 8px 30px; background:url(top10.gif) 10px 12px no-repeat; *background-position:10px 11px; overflow:hidden;}
+.top10 li{ height:26px; line-height:26px; overflow:hidden;}
+.top10 li span{ float:right; padding-right:15px; background-position:45px -35px; width:42px; text-align:right;}
+
+.pjbox{ width:960px;  overflow:hidden; float:left; margin-bottom:5px;}
+.pjbox .pt{ border-bottom:none; }
+.ping{ text-align:center;}
+.ping th{ font-size:18px; font-family:Arial, Helvetica, sans-serif; font-style:italic;}
+.ping td{ height:31px; overflow:hidden; font-weight:bold;}
+.ping a{ display:inline-block; line-height:31px; height:31px; width:100%;}
+.ping a:hover{ text-decoration:none; background:#FFFFDD;}
+.ping img{ vertical-align:text-top; margin-right:3px;}
+.tips{ height:31px; line-height:31px; *line-height:34px; padding-left:10px; background:url(tips.gif) 8px 6px no-repeat; overflow:hidden; border-top:none; font-weight:bold; color:#00CC00;}
+.tips a {font-size:14px; color:blue;}
+.sm{ border:1px solid #dedede; line-height:24px; font-weight:bold; color:#00CC00; padding:3px 10px; background:url(tips.gif) 8px 6px no-repeat; padding-left:35px;}
+.dtbox{ width:960px; clear:both; margin-bottom:5px;}
+.dtbox ul{ overflow:hidden;}
+.dtbox ul li{ border:1px solid #DEDEDE; width:300px; padding:8px 5px; margin:6px 4px 2px; float:left; text-align:center;}
+.dtbox ul li img{ border:1px dashed #999; display:block; margin:3px 15px 0px 5px; width:60px; height:60px;float:left;}
+.dtbox ul li img:hover{ border:1px dashed #333;}
+.dtbox ul li span{ display:block; margin-top:3px; text-align:left; ;float:left;width:210px;overflow:hidden;}
+.dtbox ul li a:hover{ text-decoration:none;}
+.dtbox ul li .t{ color:#000;font-weight:bold;font-size:14px;}
+.dtbox ul li .add{ color:blue;width:60px;}
+
+.ccbox{ width:960px; clear:both; margin-bottom:5px;}
+.ccbox ul{ background:#FFFFF7 url(border.gif) left repeat-y; _height:213px; overflow:hidden;}
+.ccbox ul li{ border-right:1px solid #DEDEDE; border-bottom:1px solid #DEDEDE; float:left; width:310px; height:61px; padding:9px 6px 0 3px; overflow:hidden;}
+.ccbox .tj{ background-position:-25px -104px;}
+.ccbox .cpl{ float:left; background-position:-400px -116px; display:block; width:54px; height:54px; margin:0 10px;}
+.ccbox .cpl img{ padding:5px;}
+.ccbox ul li strong{ color:#333333; font-size:13px; font-weight:600;}
+.ccbox ul li strong a,.ccbox ul li strong a:visited{ color:#333333;}
+.ccbox ul li strong a:hover{ color:#ba2636;}
+.ccbox .des{ color:#8B8B8B; height:18px; line-height:18px; overflow:hidden; display:block;}
+.ccbox .link a,.ccbox .link a:visited{ color:#017FCC; margin-right:8px;}
+
+.yhbox{ width:958px; margin-bottom:5px;}
+.yhbox .arclist{ padding:0;}
+.yhbox .arclist li{ width:923px; color:#666666; border-bottom:1px solid #DEDEDE; padding-left:35px; height:38px; line-height:38px;}
+.yhbox .arclist li .tpl{ width:60px; background:#F2F2F2; padding-left:10px; padding-right:0; margin-right:10px; float:left; color:#666666; font-weight:bold;}
+.yhbox .arclist li span{ padding-right:15px; float:right;}
+.yhbox .arclist li span img{ vertical-align:text-bottom;}
+.yhbox .arclist li a{ display:inline-block;}
+.yhbox .arclist .new{ padding-right:32px; background:url(new.gif) right 11px no-repeat;}
+.yhbox .arclist .hot{ padding-right:32px; background:url(hot.gif) right 5px no-repeat;}
+.yhbox .arclist .zd1{ background-position:-745px -12px;}
+.yhbox .arclist .zd2{ background-position:-745px -56px;}
+.yhbox .arclist .zd3{ background-position:-745px -99px;}
+.noline{ border:none !important;}
+
+.flink{ clear:both;}
+.flink ul{ padding:10px; overflow:hidden; _height:26px; }
+.flink ul li{ height:26px; line-height:26px; float:left; margin-right:15px;}
+
+/*---------- footer ---------*/
+.footer{ overflow:hidden; padding:5px 10px 10px; *padding-bottom:5px;}
+.footer .ftb{ border-top:1px solid #DEDEDE; padding-top:5px; overflow:hidden;}
+.flogo{ float:left; margin:8px 30px 0 15px;}
+.dec{ float:left;}
+.dec p{ padding-top:6px; line-height:24px;}
+
+
+
+
+.oo {
+position:fixed;
+top:195px;
+}
+.oo2 {
+position:fixed;
+top:7px;
+}
+.oo3 {
+position:fixed;
+top:382px;
+}
+.oo4 {
+position:fixed;
+top:570px;
+}
+.ll {
+left:45px;
+}
+.rr {
+right:45px;
+}
+
+.ll1 {
+left: 5px;
+}
+.rr1 {
+right:5px;
+}
+
+.ll2 {
+left: 95px;
+}
+.rr2 {
+right:95px;
+}
+
+/* for stupid IE 6 */
+* html {overflow-y:hidden;}
+* html body {height:100%;overflow-y:auto;}
+* html .oo {position:absolute;}
+* html .oo2 {position:absolute;}
+* html .oo3 {position:absolute;}
+* html .oo4 {position:absolute;}
